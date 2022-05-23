@@ -1,0 +1,9 @@
+my:
+    greeting: Again Updated Greeting from Spring Config Server Repo - MicroService Specific YML file
+    list:
+        values: One, Two, Three, Four, Five
+        
+db:
+    connection: connection-string-ConfigServerRepo - MicroService Specific YML file
+    host: 127.0.0.1
+    port: 1200

@@ -1,0 +1,24 @@
+my:
+    greeting: Hello World from Spring Config Server Repo - Robin
+    list:
+        values: One, Two, Three, Four, Five
+
+db:
+    connection: connection-string-ConfigServerRepo
+    host: 127.0.0.1
+    port: 1200
+
+
+spring:
+    datasource:
+        url: jdbc:mysql://localhost:3306/db_transactiondemo
+        username:   root
+        password:   admin
+        driver-class-name:  com.mysql.cj.jdbc.Driver
+    jpa:
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+        hibernate:
+            ddl-auto:   update
+        show-sql:   true
